@@ -1,0 +1,32 @@
+.container {
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 50px;
+
+  .introTag_container {
+    width: 100%;
+    margin-top: 20px;
+
+    .introTag {
+      display: inline;
+      padding: 6px 10px;
+      color: rgb(207, 206, 206);
+      background-color: rgb(73, 75, 77);
+      font-weight: 400;
+      font-size: 0.8rem;
+    }
+  }
+
+  .title {
+    width: 100%;
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+
+  .card_frame {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

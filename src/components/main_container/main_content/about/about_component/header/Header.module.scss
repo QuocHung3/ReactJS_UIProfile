@@ -1,0 +1,33 @@
+.about_introTagContainer {
+  margin-top: 20px;
+  width: 100%;
+  display: inline-block;
+
+  .about_introTag {
+    display: inline;
+    padding: 6px 10px;
+    color: rgb(207, 206, 206);
+    background-color: rgb(73, 75, 77);
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+}
+
+.about_titleContainer {
+  margin-bottom: 20px;
+
+  .about_title {
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+}
+
+.about_imageContainer {
+  width: 100%;
+  object-fit: cover;
+
+  .about_image {
+    width: 100%;
+    object-fit: cover;
+  }
+}

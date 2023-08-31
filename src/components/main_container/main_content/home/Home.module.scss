@@ -1,0 +1,92 @@
+.home_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 535px;
+    
+    .home_imgContainer{
+        width: 40%;
+        margin: 0 30px;
+        border-radius: 100%;
+
+
+        .home_img{
+            width: 100%;
+            aspect-ratio: 4/3;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
+            animation: morph 8s ease-in-out 1s infinite;
+            background-blend-mode: multiply;
+            box-shadow: inset 0 0 0 9px hsla(0,0%,100%,.3);
+            border-radius: 60% 40% 30% 70% 60% 30% 70% 40%;
+            overflow: hidden;
+            border: 1rem solid #ffffff;
+            
+        }
+    }
+
+    .home_contentContainer {
+        width: 40%;
+        margin: 0 30px;
+
+        .home_name{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .home_job {
+            font-weight: bold;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+
+        .home_desc{
+            font-weight: 100;
+            font-size: 1.1rem;
+            color: #c2bebe;
+        }
+
+        .home_iconContainer {
+            list-style: none;
+            display:flex;
+            justify-content:flex-start;
+            padding: 0;
+
+            .icon_item{
+                margin-right: 6px;
+            }
+
+            .icon_link {
+                padding: 8px;
+                transition: 0.5s;
+
+                &:hover {
+                    background: #ffffff;
+                    color: #000000;
+                }    
+            }
+
+        }
+    }
+    
+}
+
+
+//animation border avatar image
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}

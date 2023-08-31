@@ -1,0 +1,27 @@
+.about_infoDetails {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #2e2c2c;
+  border-top: 1px solid #2e2c2c;
+  padding: 20px;
+
+  .about_detailsContainer {
+    width: 45%;
+
+    .about_detailsItem {
+      display: flex;
+      margin: 8px 0;
+
+      .about_detailsLabel {
+        width: 30%;
+        font-weight: 400;
+        font-size: 0.9rem;
+      }
+
+      .about_detailsInfo {
+        color: rgb(161, 166, 170);
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

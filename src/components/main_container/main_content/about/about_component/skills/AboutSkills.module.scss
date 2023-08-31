@@ -1,0 +1,23 @@
+.skillsContainer {
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .skillsSection {
+    width: 45%;
+
+    .skillsTitle {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    .skillsItem {
+      .itemTitle {
+        font-weight: 400;
+        font-size: 0.9rem;
+        font-style: italic;
+      }
+    }
+  }
+}
